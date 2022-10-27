@@ -2,9 +2,7 @@ package Locadora;
 
 public class DoacaoMidia {
     // essa classe deve conter:
-    // método pegarMidiaAleatoria() que devolve uma midia já criada na biblioteca
-
-    //aleatória nao entendi
+    // método pegarMidiaAleatoria() que devolve uma midia aleatória já criada na biblioteca
 
     //método assisitirFilme(Dvd dvd) e chamar os dois métodos de legenda
 
