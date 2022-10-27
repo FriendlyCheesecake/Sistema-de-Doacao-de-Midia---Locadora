@@ -11,8 +11,8 @@ public class Dvd extends Midia {
         System.out.println("Filme iniciado!");
     }
 
-    public Dvd(Midia midia, String idioma, boolean possuiLegenda, String idiomaLegenda) {
-        super(midia.getCodigo(), midia.getPreco(), midia.getNome());
+    public Dvd(String codigo, Double preco, String nome, Idioma idioma, boolean possuiLegenda, IdiomaLegenda idiomaLegenda) {
+        super(codigo, preco, nome);
         this.idioma = idioma;
         this.possuiLegenda = possuiLegenda;
         this.idiomaLegenda = idiomaLegenda;
